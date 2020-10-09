@@ -52,4 +52,43 @@ nav .linkContainer .material-icons {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+#searchBox{
+    max-width: 500px;
+    margin: 0 auto 0 auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    display: flex;
+}
+
+#searchBox input {
+    border: none;
+    flex-grow: 1;
+}
+
+#searchBox .material-icons {
+    width: 50px;
+    align-self: auto;
+    line-height: 44px;
+    text-align: center;
+}
+
+#buttonContainer {
+    margin: 10 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn {
+    margin: 0 5px;
+    background-color: #f8f8f8;
+    border: none;
+    height: 40px;
+    color: #5F6368;
+    font-size: 14px;
+    padding: 0 15px
 }
