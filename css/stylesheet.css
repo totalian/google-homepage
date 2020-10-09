@@ -3,14 +3,15 @@ body {
 }
 
 nav {
-    padding-top: 15px;
+    margin-top: 15px;
 }
 
-nav .linkContainer {
+.linkContainer {
     display: flex;
     justify-content: space-between;
     padding: 0 15px 0 15px;
     color: black;
+    align-items: center;
 }
 
 nav .linkContainer a {
@@ -24,3 +25,24 @@ nav .linkContainer a:hover {
     text-decoration: underline;
 }
 
+nav .linkContainer .material-icons {
+    align-self: auto;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+}
+
+.profileIcon {
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    line-height: 32px;;
+    color: seashell;
+    font-size: 16px;
+    font-weight: 600;
+}
