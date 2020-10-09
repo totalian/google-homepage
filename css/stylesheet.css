@@ -46,3 +46,10 @@ nav .linkContainer .material-icons {
     font-size: 16px;
     font-weight: 600;
 }
+
+#logoContainer {
+    height: 233;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
